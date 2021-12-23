@@ -243,3 +243,9 @@ We can notice that Ghidra performed way better on the "classical" simple binary 
 In this experiment, we had access to the source code of both binaries, but in most real-life case scenarios, reverse engineering is performed on blackbox binaries, i.e. binaries without source code available.
 
 This experiment made me want to get better in reverse engineering. With more assembly experience for example, I would probably be able to recognize code patterns more easily (like the `memset` pattern for example).
+
+## Resources
+- https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_andriesse.pdf
+- https://ghidra-sre.org/
+- https://github.com/lighttpd/lighttpd1.4
+- https://github.com/bminor/glibc
